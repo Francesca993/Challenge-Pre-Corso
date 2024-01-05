@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form, Input e Button </title>
+</head>
+
+<body>
+    <p> <center><h1> <span style="color: green;"> Spotify</span> </h1> </center></p>
+    <p><center><h2> <span style="color: rgb(2, 41, 2);">ANTEPRIMA! Iscriviti per ricevere brani e pod-cast illimitati!</span></h2></center></p>
+
+    <div>
+<h3>Promozione valida solo per questo mese, <SPAN style="color: red;">approfittane ora!</SPAN></h3>
+<p>Per le vacanze di Natale vogliamo regalarvi 3 mesi di prova gratuita, 
+    inserite di seguito i vostri dati, non sarà necessaria alcuna carta di credito deciderete alla fine se continuare con l'abbonamento!</p>
+    Intanto godetevi 3 mesi di musica illimitata senza ppubblicità, pod cast, ultime uscite e playlist personali!
+</div>
+
+<div> <h3>ISCRIVITI QUI!</h3></div>
+
+<form onsubmit="alert('Registrazione completata!')"> 
+
+    <div>
+       <label for="Name">Nome</label>
+          <input type="text" placeholder="Inserisci qui il tuo Nome ">
+
+        <label for="Surname">Cognome</label>
+          <input type="text" placeholder="Inserisci qui il tuo Cognome">
+    </div>
+ <br>
+    <div>
+         <label for="birthday">Data Di Nascita</label>
+          <input type="date">
+
+         <label for="Luogo di nascita">Luogo Di Nascita</label>
+        <input type="text" placeholder="Città dove sei nato">
+    </div>
+ <br>
+     <div>
+         <label for="Residenza">Via, Cap, Città e luogo dove risiedi:</label>
+          <input type="text" placeholder="Via mario rossi 23, 00061 Aprilia, Roma">
+    </div>
+ <br>
+     <fieldset><legend>Vuoi ricevere i nostri cataloghi direttamete a casa tua?</legend>
+    <div>
+        <input type="radio"  name="siono" id=" si/no " name="si"checkbox/>
+        <label for="si">Si</label>
+    </div>
+
+    <div>
+        <input type="radio" name="siono" id="si/no " name="no" check/>
+        <label for="si">No</label>
+        </div>
+
+    </fieldset>
+<br>
+     <div>
+        <label for="autorizzazione">Accetto Termini e Condizioni</label>
+        <input type="checkbox">
+     </div>
+<br>
+
+      <fieldset><legend> Registrati con le tue credenziali:</legend>
+
+    <div>
+         <label for="email">Email:</label>
+          <input type="email" placeholder="mariorossi@ciaociao.it">
+    </div>
+    <div>
+        <label for="numero di telefono">Cellulare:</label>
+        <input type="number" placeholder="+39 1234567" >
+    </div>
+    <div>
+        <label for="password">Password:</label>
+          <input type="password" name="Password" placeholder="Non dirla a nessuno!">
+     </div>
+<br>
+<span> <center>
+    <button>REGISTRATI</button> </center> </span>
+      
+</fieldset>
+
+<br>
+      <span><center><button type="submit">Invia i dati e Registrati</button></center> </span>
+
+    </form>
+<br>
+
+<fieldset><legend>SELEZIONA I TUOI GENERI PREFERITI</legend>
+     <form onsubmit="alert('Complimenti hai completato tutti i passaggi!')">  
+    
+    <div>
+      <label for="Pop">Pop</label>
+        <input type="checkbox" name="Pop">
+
+      <label for="Rock">Rock</label>
+        <input type="checkbox" name="Rock" id="Rock">
+
+      <label for="Classica" name=Classica>Musica Classica</label>
+        <input type="checkbox" name="Musica Classica" id="Musica Classica">
+
+     <label for="Hip Hop">Hip Hop</label>
+        <input type="checkbox" name="Hip Hop" id=HipHop">   
+
+     <label for="Dance">Dance</label>
+       <input type="checkbox" name="Dance" id=Dance">   
+
+    <label for="Indie">Indie</label>
+     <input type="checkbox" name="Indie" id=Indie">   
+
+    <label for="Latino">Latino</label>
+      <input type="checkbox" name="Latino" id=Latino">  
+
+    <label for="Nuova musica">Scopri nuova musica</label>
+     <input type="checkbox" name="Scopri nuova musica" id=Scoprinuovamusica">   
+     
+    <label for="Reggae">Reggae</label>
+     <input type="checkbox" name="Reggae" id=Reggae">   
+
+    <label for="Blues">Blues</label>
+     <input type="checkbox" name="Blues" id=Blues"> 
+
+     <label for="Relax">Relax</label>
+      <input type="checkbox" name="Relax" id=Relax">   
+</div>
+
+<div> <center> <button type="submit">Fatto!</button></center>
+</div>
+
+</form>
+
+</fieldset>
+ 
+
+</body>
+</html>
